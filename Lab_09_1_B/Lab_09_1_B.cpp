@@ -39,7 +39,7 @@ int main()
 
 	Student* p = new Student[N];
 
-	double MinAver = 0.0;
+	double MinAve = 0.0;
 	int count = 0;
 	int countphysics = 0;
 	int countmathematics = 0;
@@ -68,8 +68,8 @@ int main()
 			Print(p, N);
 			break;
 		case 3:
-			MinAverage(p, N, MinAver);
-			cout << "Мінімальне середній бал: " << setprecision(2) << fixed << MinAver << endl;
+			MinAverage(p, N, MinAve);
+			cout << "Мінімальне середній бал: " << setprecision(2) << fixed << MinAve << endl;
 			break;
 		case 4:
 			CountMarks(p, N, countphysics, countmathematics, countprogramming, countNumericMethods, countpedagogy);
